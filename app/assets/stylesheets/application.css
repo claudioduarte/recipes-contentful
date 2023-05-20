@@ -1,0 +1,61 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600&display=swap');
+
+body {
+  width: 500px;
+  margin: auto;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+ }
+
+footer {
+  margin: 50px auto;
+  font-weight: bold;
+}
+
+.recipe {
+  margin-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px auto;
+  font-weight: 600;
+}
+
+table {
+  margin: auto;
+}
+
+table td {
+  vertical-align: top;
+}
+
+table td:first-child {
+  font-weight: bold;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}

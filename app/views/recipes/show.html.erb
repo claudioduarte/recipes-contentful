@@ -1,0 +1,29 @@
+<h1><%= @recipe.title %></h1>
+<table>
+  <tr>
+    <td colspan="2"><p><%= image_tag @recipe.photo.url %></p></td>
+  </tr>
+  <tr>
+    <td><p>Calories</p></td>
+    <td><p><%= @recipe.calories %></p></td>
+  </tr>
+  <tr>
+    <td><p>Description</p></td>
+    <td><%= @description.to_html.html_safe %></td>
+  </tr>
+  <% if @recipe.fields.key?(:tags) %>
+  <tr>
+    <td><p>Tags</p></td>
+    <td><p><%= @recipe.tags.map(&:name).join(', ') %></p></td>
+  </tr>
+  <% end %>
+  <% if @recipe.fields.key?(:chef) %>
+  <tr>
+    <td><p>Chef</p></td>
+    <td><p><%= @recipe.chef.name %></p></td>
+  </tr>
+  <% end %>
+  <tr>
+    <td colspan="2"><%= link_to '< Back to Recipes', recipes_path %></td>
+  </tr>
+</table>
