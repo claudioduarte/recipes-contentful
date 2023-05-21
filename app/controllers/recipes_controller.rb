@@ -7,6 +7,8 @@ class RecipesController < ApplicationController
   end
 
   def show
+    redirect_to :root and return if @recipe.nil?
+
     @description = RDiscount.new(@recipe.description)
   end
 
