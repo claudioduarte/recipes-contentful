@@ -55,5 +55,14 @@ RSpec.describe Recipe, type: :request do
         expect(recipe.fields).to_not include :tags, :chef
       end
     end
+
+    context 'when recipe is not found' do
+      let(:entry_id) { 'invalid' }
+
+      it 'should redirect to root path' do
+        get "/recipes/#{entry_id}"
+        expect(response).to redirect_to :root
+      end
+    end
   end
 end
