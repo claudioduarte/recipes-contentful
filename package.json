@@ -1,0 +1,28 @@
+{
+  "name": "recipes-contentful",
+  "version": "1.0.0",
+  "description": "Recipes from Contentful Delivery API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Error: no build specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudioduarte/recipes-contentful.git"
+  },
+  "keywords": [
+    "recipes"
+  ],
+  "author": "Cláudio Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudioduarte/recipes-contentful/issues"
+  },
+  "homepage": "https://github.com/claudioduarte/recipes-contentful#readme"
+}
