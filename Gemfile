@@ -3,10 +3,10 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.2.2"
+ruby "3.4.8"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.1', '>= 7.1.5.1'
+gem 'rails', '7.2.3'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -33,7 +33,7 @@ gem "jbuilder"
 gem "redis", "~> 4.0"
 
 # Contentful
-gem 'contentful', '~> 2.17'
+gem 'contentful', '~> 2.19'
 
 # RDiscount
 gem 'rdiscount', '~> 2.2', '>= 2.2.0.1'
