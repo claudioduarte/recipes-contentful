@@ -24,7 +24,7 @@ gem "importmap-rails"
 gem 'contentful', '~> 2.19'
 
 # RDiscount
-gem 'rdiscount', '~> 2.2', '>= 2.2.0.1'
+gem 'rdiscount', '~> 2.2'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
