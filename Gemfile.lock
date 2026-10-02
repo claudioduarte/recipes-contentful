@@ -288,7 +288,7 @@ GEM
       rspec-mocks (~> 3.12)
       rspec-support (~> 3.12)
     rspec-support (3.13.7)
-    rubyzip (3.2.2)
+    rubyzip (3.4.0)
     securerandom (0.4.1)
     selenium-webdriver (4.1.0)
       childprocess (>= 0.5, < 5.0)
